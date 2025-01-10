@@ -9,7 +9,7 @@ export default function HeroSection() {
               It's Quick & Amusing!
             </p>
             <h1 className="xl:text-5xl md:text-4xl font-bold mb-4 leading-tight sm:text-3xl">
-            <span className="mainColor">Th</span>e Art of speed food{" "}
+            <span className="mainColor">Th</span>e Art of speed food
               Quality
             </h1>
             <p className="text-gray-300 mb-6">
@@ -20,7 +20,7 @@ export default function HeroSection() {
           </div>
           <div className="flex-1 relative mt-10 md:mt-0">
             <div className="relative z-10">
-              <img src="/img/home/banner-left.png" alt="Delicious Food" className=" shadow-lg mx-auto" />
+              <Image  src="/img/home/banner-left.png" alt="Delicious Food" className=" shadow-lg mx-auto" />
             </div>
           </div>
         </div>

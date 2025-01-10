@@ -40,29 +40,29 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-4">Useful Links</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white">
+                <Link href="#" className="text-sm text-gray-400 hover:text-white">
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white">
+                <Link href="#" className="text-sm text-gray-400 hover:text-white">
                   News
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white">
+                <Link href="#" className="text-sm text-gray-400 hover:text-white">
                   Partners
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white">
+                <Link href="#" className="text-sm text-gray-400 hover:text-white">
                   Team
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white">
+                <Link href="#" className="text-sm text-gray-400 hover:text-white">
                   Contacts
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -72,29 +72,29 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-4">Help?</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white">
+                <Link href="#" className="text-sm text-gray-400 hover:text-white">
                   FAQ
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white">
+                <Link href="#" className="text-sm text-gray-400 hover:text-white">
                   Term & Conditions
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white">
+                <Link href="#" className="text-sm text-gray-400 hover:text-white">
                   Reporting
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white">
+                <Link href="#" className="text-sm text-gray-400 hover:text-white">
                   Documentation
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white">
+                <Link href="#" className="text-sm text-gray-400 hover:text-white">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -104,16 +104,16 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-4">Recent Post</h4>
             <ul className="space-y-4">
               <li className="flex items-center">
-                <img
+                <Image 
                   src="https://via.placeholder.com/50"
                   alt="Post"
                   className="w-12 h-12 rounded object-cover mr-4"
                 />
                 <div>
                   <p className="text-sm text-gray-400">20 Feb 2022</p>
-                  <a href="#" className="text-sm text-gray-400 hover:text-white" >
+                  <Link href="#" className="text-sm text-gray-400 hover:text-white" >
                     Keep Your Business Safe
-                  </a>
+                  </Link>
                 </div>
               </li>
               <li className="flex items-center">
@@ -124,12 +124,12 @@ export default function Footer() {
                 />
                 <div>
                   <p className="text-sm text-gray-400">20 Feb 2022</p>
-                  <a
+                  <Link
                     href="#"
                     className="text-sm text-gray-400 hover:text-white"
                   >
                     Keep Your Business Safe
-                  </a>
+                  </Link>
                 </div>
               </li>
             </ul>
@@ -142,18 +142,18 @@ export default function Footer() {
             Copyright © 2022 by Ayman. All Rights Reserved.
           </p>
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-400 hover:text-white">
+            <Link href="#" className="text-gray-400 hover:text-white">
               <i className="fab fa-facebook"></i>
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            </Link>
+            <Link href="#" className="text-gray-400 hover:text-white">
               <i className="fab fa-twitter"></i>
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            </Link>
+            <Link href="#" className="text-gray-400 hover:text-white">
               <i className="fab fa-instagram"></i>
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            </Link>
+            <Link href="#" className="text-gray-400 hover:text-white">
               <i className="fab fa-linkedin"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
