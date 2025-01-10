@@ -1,3 +1,4 @@
+import Link from 'next/link';  // Import Link from next/link
 import Image from 'next/image';
 
 export default function Footer() {
@@ -7,15 +8,19 @@ export default function Footer() {
         {/* Top Section */}
         <div className="flex flex-col md:flex-row justify-between items-center border-b border-gray-700 pb-8">
           <div className="subHeadingFooter ">
-          <h3 className="text-2xl font-bold mainColor">
-            Still You Need Our Support?
-          </h3>
-          <p className="text-sm text-gray-400 mt-4 md:mt-0">
-            Don’t wait; make a smart & logical move here. It’s pretty easy.
-          </p>
+            <h3 className="text-2xl font-bold mainColor">
+              Still You Need Our Support?
+            </h3>
+            <p className="text-sm text-gray-400 mt-4 md:mt-0">
+              Don’t wait; make a smart & logical move here. It’s pretty easy.
+            </p>
           </div>
           <div className="flex items-center mt-4 md:mt-0">
-            <input type="email" placeholder="Enter Your Email" className="bg-gray-800 border border-gray-700 text-sm text-white px-4 py-2 rounded-l-md focus:outline-none"/>
+            <input
+              type="email"
+              placeholder="Enter Your Email"
+              className="bg-gray-800 border border-gray-700 text-sm text-white px-4 py-2 rounded-l-md focus:outline-none"
+            />
             <button className="buttonBg-color text-white px-6 py-2 rounded-r-md">Subscribe Now</button>
           </div>
         </div>
@@ -104,14 +109,14 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-4">Recent Post</h4>
             <ul className="space-y-4">
               <li className="flex items-center">
-                <Image 
+                <Image
                   src="https://via.placeholder.com/50"
                   alt="Post"
                   className="w-12 h-12 rounded object-cover mr-4"
                 />
                 <div>
                   <p className="text-sm text-gray-400">20 Feb 2022</p>
-                  <Link href="#" className="text-sm text-gray-400 hover:text-white" >
+                  <Link href="#" className="text-sm text-gray-400 hover:text-white">
                     Keep Your Business Safe
                   </Link>
                 </div>
@@ -124,10 +129,7 @@ export default function Footer() {
                 />
                 <div>
                   <p className="text-sm text-gray-400">20 Feb 2022</p>
-                  <Link
-                    href="#"
-                    className="text-sm text-gray-400 hover:text-white"
-                  >
+                  <Link href="#" className="text-sm text-gray-400 hover:text-white">
                     Keep Your Business Safe
                   </Link>
                 </div>

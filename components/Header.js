@@ -1,3 +1,6 @@
+import Link from 'next/link';  // Import Link from next/link
+
+
 const Header = () => {
   return (
     <header className="bg-black text-white p-4">
@@ -24,7 +27,7 @@ const Header = () => {
           <Link href="/menu" className="hover:text-orange-500 transition">
             Menu
           </Link>
-          <Link href="about" className="hover:text-orange-500 transition">
+          <Link href="/about" className="hover:text-orange-500 transition">
             About
           </Link>
           <Link href="/blog" className="hover:text-orange-500 transition">

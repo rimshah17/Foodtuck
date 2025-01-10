@@ -6,7 +6,7 @@ export default function HeroSection() {
         <div className="container mx-auto flex flex-col md:flex-row items-center">
           <div className="flex-1 text-center md:text-left">
             <p className="text-2xl	subTitle-banner font-light mb-2 familytwo">
-              It's Quick & Amusing!
+              It&apos;s Quick & Amusing!
             </p>
             <h1 className="xl:text-5xl md:text-4xl font-bold mb-4 leading-tight sm:text-3xl">
             <span className="mainColor">Th</span>e Art of speed food
